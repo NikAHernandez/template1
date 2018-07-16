@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Custom Styles
+=========================================
+*/
+
+body {
+	font: 400 16px/22px "Vollkorn", Helvetica, Arial, serif;
+	color: rgb(37, 28, 28);
+}
+
+a {
+	color: rgb(219, 219, 219);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(223, 172, 5);
+}
+	/*
+	Header
+	==========================================
+	*/
+
+	.header-image {
+		background: linear-gradient(rgba(44, 48, 44, 0.459), rgba(44, 48, 44, 0.459)), url(buildings.jpeg);
+		background-repeat: no-repeat;
+
+		background-size: 100% 900px;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 300px;
+	}
+
+	.flex-container h1 {
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+
+	.flex-container h2{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.flex-container h2:last-of-type{
+		margin-bottom: 40px;
+	}
+
+	.flex-container h1, h2 {
+		color: rgb(219, 219, 219);
+	}
+/*
+Navbar
+=========================================
+*/
+
+.nav-container {
+	display: flex;
+	justify-content: space-around;
+	
+	
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: rgba(44, 48, 44, 0.459)
+}
+
+.nav-container li {
+	color: rgb(219, 219, 219);
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: 15%;
+	font-size: 20px;
+	
+}
+.nav {
+	margin-right: 20px;
+}
+.nav:last-of-type{
+	margin-right: 15%;
+}
+
+.nav-container ul {
+	display: none;
+}
+
+.nav-container li:hover > ul {
+	display: block;
+	color: rgb(223, 172, 5);
+}
+.nav-container ul.parent_hover {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	}
+
+/*
+Buttons
+=====================================
+*/
+
+.btn {
+	background-color: rgb(190, 187, 9);
+	text-align: center;
+	color: rgb(219, 219, 219);
+	border-color: rgb(190, 187, 9);
+	border-radius: 10%;
+	padding: 10px;
+	font: 700 14px/20px "Vollkorn", Helvetica, Arial, serif;
+	margin-bottom: 50px;
+}
+.btn:hover {
+	background-color: rgb(44, 48, 44);
+	border: 10px white;
+}
