@@ -53,7 +53,7 @@ Custom Styles
 */
 
 body {
-	font: 400 16px/22px "Vollkorn", Helvetica, Arial, serif;
+	font: 400 16px/22px "Markazi Text", Helvetica, Arial, serif;
 	color: rgb(37, 28, 28);
 }
 
@@ -83,17 +83,20 @@ a:hover {
 		align-items: center;
 		justify-content: space-around;
 		margin-top: 300px;
+		font: 400 16px/22px "Markazi Text", Helvetica, Arial, serif;
 	}
 
 	.flex-container h1 {
 		font-size: 40px;
 		font-weight: 700;
 		margin-bottom: 30px;
+		
 	}
 
 	.flex-container h2{
 		font-size: 20px;
 		margin-bottom: 30px;
+		
 	}
 
 	.flex-container h2:last-of-type{
@@ -160,11 +163,11 @@ Buttons
 .btn {
 	background-color: rgb(190, 187, 9);
 	text-align: center;
-	color: rgb(219, 219, 219);
+	color: white;
 	border-color: rgb(190, 187, 9);
 	border-radius: 10%;
 	padding: 10px;
-	font: 700 14px/20px "Vollkorn", Helvetica, Arial, serif;
+	font: 700 14px/20px "Markazi Text", Helvetica, Arial, serif;
 	margin-bottom: 50px;
 }
 .btn:hover {
