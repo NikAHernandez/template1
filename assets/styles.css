@@ -77,33 +77,33 @@ a:hover {
 		background-size: 100% 900px;
 	}
 
-	.flex-container {
+	.header-container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
 		margin-top: 300px;
-		font: 400 16px/22px "Markazi Text", Helvetica, Arial, serif;
+		font: 400 18px/28px "Markazi Text", Helvetica, Arial, serif;
 	}
 
-	.flex-container h1 {
-		font-size: 40px;
+	.header-container h1 {
+		font-size: 50px;
 		font-weight: 700;
 		margin-bottom: 30px;
 		
 	}
 
-	.flex-container h2{
-		font-size: 20px;
+	.header-container h2{
+		font-size: 26px;
 		margin-bottom: 30px;
 		
 	}
 
-	.flex-container h2:last-of-type{
+	.header-container h2:last-of-type{
 		margin-bottom: 40px;
 	}
 
-	.flex-container h1, h2 {
+	.header-container h1, h2 {
 		color: rgb(219, 219, 219);
 	}
 /*
@@ -131,11 +131,12 @@ nav {
 .logo {
 	margin-right: auto;
 	margin-left: 15%;
-	font-size: 20px;
+	font-size: 35px;
 	
 }
 .nav {
 	margin-right: 20px;
+	font-size: 20px;
 }
 .nav:last-of-type{
 	margin-right: 15%;
@@ -167,10 +168,64 @@ Buttons
 	border-color: rgb(190, 187, 9);
 	border-radius: 10%;
 	padding: 10px;
-	font: 700 14px/20px "Markazi Text", Helvetica, Arial, serif;
+	font: 400 14px/20px "Markazi Text", Helvetica, Arial, serif;
 	margin-bottom: 50px;
 }
 .btn:hover {
 	background-color: rgb(44, 48, 44);
 	border: 10px white;
 }
+
+/*
+Services
+========================================
+*/
+
+.services-container {
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 80px;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	}
+
+	.services-container:last-of-type{
+		padding-bottom: 5%;
+		margin-top: 5%;
+		border-bottom: 5px solid grey;
+		margin-bottom: 5%;
+	}
+	.services-container div {
+		margin-right: 5%;
+		
+	}
+	.services-container div:first-of-type {
+		margin-left: 20%;
+		
+	}
+
+	.services-container div:last-of-type {
+		margin-right: 20%;
+		
+	}
+
+	.services-container h2 {
+		text-transform: uppercase;
+		color: rgb(52, 59, 66);
+	}
+
+	.services-container p {
+		color: rgb(128, 135, 143)
+	}
+
+	.services-container i {
+		color: rgb(190, 187, 9);
+		border: 1px solid rgb(190, 187, 9);
+		padding: 12px 10px 12px 10px;
+		border-radius: 10%;
+		margin-bottom: 15px;
+	}
+
