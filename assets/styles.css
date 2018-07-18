@@ -55,6 +55,7 @@ Custom Styles
 body {
 	font: 400 16px/22px "Markazi Text", Helvetica, Arial, serif;
 	color: rgb(37, 28, 28);
+	background-color: rgb(238, 238, 238)
 }
 
 a {
@@ -190,13 +191,12 @@ Services
 	flex-basis: 80px;
 	margin-top: 10%;
 	margin-bottom: 5%;
+	
 	}
 
 	.services-container:last-of-type{
 		padding-bottom: 5%;
 		margin-top: 5%;
-		border-bottom: 5px solid grey;
-		margin-bottom: 5%;
 	}
 	.services-container div {
 		margin-right: 5%;
@@ -228,4 +228,60 @@ Services
 		border-radius: 10%;
 		margin-bottom: 15px;
 	}
+
+/*
+Split Info Homepage
+============================================================================
+*/
+
+.info-container {
+	display: flex;
+	justify-content: space-around;
+	
+	border-top: 10px solid grey;
+	border-bottom: 10px solid grey;
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.list-info,
+.bio-info {
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+.info-container h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(52, 59, 66);
+}
+
+.icon-list {
+	border: 2px solid grey;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	border-radius: 8%;
+	padding-left: 50px;
+}
+
+.list-info i {
+	position: relative;
+	top: 35px;
+	right: -5px;
+	border: 1px solid black;
+	padding: 5px 2px 5px 5px;
+	border-radius: 10%;
+	width: 20px;
+	height: 15px;
+}
+
+.icon-list h3 {
+	font-size: 25px;
+	
+}
+
+
 
